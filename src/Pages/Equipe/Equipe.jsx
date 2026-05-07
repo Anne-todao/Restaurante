@@ -1,8 +1,8 @@
-import styles from './Extra.module.css';
+import styles from './Equipe.module.css';
 import imgAnne from '../../img/anne.webp'
 import imgGaby from '../../img/gaby.jpg'
 
-function Extra() {
+function Equipe() {
   return (
     <section className={styles.equipe}>
       <h1>Nossa Equipe</h1>
@@ -26,4 +26,4 @@ function Extra() {
     </section>
   );
 }
-export default Extra;
+export default Equipe;
