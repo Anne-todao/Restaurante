@@ -21,13 +21,13 @@ function Home() {
             <p>O melhor restaurante que você vai conhecer</p>
             <div className={styles.grid}>
                 {destaques.map(item => (
-                    <Card key={item.id} titulo={item.t} descricao={item.d}></Card>
-                   
+                    <Card key={item.id} titulo={item.t} desc={item.d}></Card>
+
                 ))}
                 </div>
                 <img src={imgLogo} alt="Logo" className={styles.logo} />
                 </section>
-                 
+
     );
 }
     export default Home;

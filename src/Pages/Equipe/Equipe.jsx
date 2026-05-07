@@ -1,4 +1,6 @@
 import styles from './Extra.module.css';
+import imgAnne from '../../img/anne.webp'
+import imgGaby from '../../img/gaby.jpg'
 
 function Extra() {
   return (
@@ -6,12 +8,17 @@ function Extra() {
       <h1>Nossa Equipe</h1>
       <div className={styles.membros}>
         <div className={styles.membro}>
-          <div className={styles.fotoPlaceholder}>👤</div>
+          <div className={styles.fotoPlaceholder}>
+                      <img src={imgAnne} alt="anne" className={styles.imgAnne} />
+          </div>
           <h4>Anne Todão</h4>
           <p>Proprietária</p>
         </div>
         <div className={styles.membro}>
-          <div className={styles.fotoPlaceholder}>👤</div>
+                  <div className={styles.fotoPlaceholder}>
+                      <img src={imgGaby} alt="gaby" className={styles.imgGaby} />
+
+          </div>
           <h4>Gabrielly Dias</h4>
           <p>Proprietária</p>
         </div>

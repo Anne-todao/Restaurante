@@ -31,6 +31,18 @@
 }
 
 .logoImg {
-  width: 40px;
-  height: 40px;
+  width:150px;
+}
+
+.logoImg2{
+    width: 50px;
+}
+
+@media (max-width: 300px){
+    .logoImg{
+        width: 100px;
+    }
+    .logo {
+        font-size: 20px;
+    }
 }
